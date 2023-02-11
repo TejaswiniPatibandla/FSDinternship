@@ -1,0 +1,76 @@
+body {
+    background-color:rgb(85, 213, 183);
+   background-repeat: no-repeat center center fixed;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7xe3NOMqidAaHn14sikqZsHzYQCUn0ogoT7WwBsFZ5Q&s");
+ height:100%;
+ text-align: center;
+
+  }
+
+.g{
+  color: darkkhaki;
+  background-color: rgb(23, 123, 123);
+  text-decoration: brown;
+}
+  html {
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+      -o-background-size: cover;
+       background-size: cover; }
+
+
+  h1 {
+    color:chocolate;
+  }
+
+  marquee {
+    color: rgb(9, 156, 175);
+  }
+
+  #para1 {
+    color:blueviolet
+  }
+
+  #para2 {
+    color:crimson
+  }
+
+  p {
+    text-align: left;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .largeFont {
+    font-size: large;
+  }
+
+  .container {
+    text-align: center;
+    
+    text-decoration-color: crimson;
+  }
+
+  .hi{
+background-color: blanchedalmond;
+background-image:url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpaperaccess.com%2F4k-ultra-hd-laptop&psig=AOvVaw02e_VfN3yoq_udqydflNJb&ust=1675515667217000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCOiV5bm0-fwCFQAAAAAdAAAAABAJ");
+
+  }
+  .myOL {
+    display: inline-block;
+    text-align: left;
+    background-color: beige;
+    text-decoration-color: blueviolet;
+    text-decoration-style: solid;
+  }
+
+  .table {
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    border-style: solid;
+    background-color: aquamarine;
+  }
+
