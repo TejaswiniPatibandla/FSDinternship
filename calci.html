@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        #box1{
+            display: flex;
+            flex-direction: row;
+        }
+        #result{
+            margin-left:10px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+    <input type="text" id="mytext1"  placeholder="Enter number 1">
+    <input type="text" id="mytext2"  placeholder="Enter number 2"><br><br>
+    <button type="button" onclick="myfun1()">Add</button>
+    <button type="button" onclick="myfun2()">Subtract</button>
+    <button type="button" onclick="myfun3()">Multiply</button>
+    <button type="button" onclick="myfun4()">Divide</button>
+    <input type="reset" onclick="myfun5()">
+    <div id="box1"><h3 id="box"></h3><h4 id="result"></h4></div>
+</form>
+    <script>
+            
+            function myfun1(){
+                var x=document.getElementById("mytext1").value;
+                var y=document.getElementById("mytext2").value;
+                var res=parseInt(x)+parseInt(y);
+                document.getElementById("box").innerHTML="Result: ";
+                document.getElementById("result").innerHTML=res;
+            }
+            function myfun2(){
+                var x=document.getElementById("mytext1").value;
+                var y=document.getElementById("mytext2").value;
+                var res=parseInt(x)-parseInt(y);
+                document.getElementById("box").innerHTML="Result: ";
+                document.getElementById("result").innerHTML=res;
+            }
+            function myfun3(){
+                var x=document.getElementById("mytext1").value;
+                var y=document.getElementById("mytext2").value;
+                var res=parseInt(x)*parseInt(y);
+                document.getElementById("box").innerHTML="Result: ";
+                document.getElementById("result").innerHTML=res;
+            }
+            function myfun4(){
+                var x=document.getElementById("mytext1").value;
+                var y=document.getElementById("mytext2").value;
+                var res=parseInt(x)/parseInt(y);
+                document.getElementById("box").innerHTML="Result: ";
+                document.getElementById("result").innerHTML=res;
+            }
+            function myfun5(){
+                
+                document.getElementById("box").innerHTML="";
+                document.getElementById("result").innerHTML="";
+            }
+    </script>
+</body>
+</html>
